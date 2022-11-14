@@ -5,7 +5,7 @@
 <template>
     <section class="jobs-wrapper">
         <div class="jobs">
-            Yeban yJobs Ukraine
+            Super Jobs in the World
         </div>
         <div class="map">
             map
