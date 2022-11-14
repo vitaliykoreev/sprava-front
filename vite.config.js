@@ -12,6 +12,6 @@ export default defineConfig({
     }
   },
   base: process.env.NODE_ENV === 'production'
-    ? '/' + process.env.CI_PROJECT_NAME + '/'
+    ? '/sprava-front/'
     : '/'
 })
