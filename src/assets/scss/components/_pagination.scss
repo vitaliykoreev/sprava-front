@@ -1,0 +1,36 @@
+.pagination {
+    @extend .flex-no-conflict;
+    align-items: center;
+    gap: 10px;
+
+    &__pages {
+        gap: 6px;
+    }
+
+    &__page {
+        width: 30px;
+        height: 30px;
+        background: transparent;
+        transition: all .24s ease-in-out;
+        color: var(--dark);
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        border: none;
+
+        svg {
+            fill: currentColor;
+        }
+
+        &:hover {
+            background: #eee;
+        }
+
+        &--active {
+            background: var(--dark);
+            color: #fff;
+        }
+    }
+}

@@ -1,0 +1,40 @@
+.button {
+    @extend .flex-no-conflict;
+    flex-wrap: nowrap;
+    align-items: center;
+    border: none;
+    height: 44px;
+    cursor: pointer;
+    padding: 0 12px;
+    background: var(--main-color);
+    border-radius: 10px;
+    transition: all .24s ease-in-out;
+
+    &__icon {
+        width: 24px;
+        height: 24px;
+        margin-right: 10px;
+        @extend .flex-no-conflict;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__label {
+        color: #fff;
+        font-size: 14px;
+        line-height: 1;
+    }
+
+    &--no-fill {
+        background: transparent;
+        border: 1px solid #eee;
+
+        .button__label {
+            color: var(--dark);
+        }
+
+        &:hover {
+            background: #eee;
+        }
+    }
+}
