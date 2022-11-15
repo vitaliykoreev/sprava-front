@@ -19,7 +19,6 @@ import './assets/scss/main.scss';
                         <option value="category_1">UI/UX design</option>
                         <option value="category_2">Front-end</option>
                         <option value="category_3">Back-end</option>
-                        <option value="category_4"></option>
                     </select>
 
                     <button type="submit" class="search__button">
